@@ -1,0 +1,23 @@
+{
+  "name": "analiticaspublish",
+  "version": "1.9.9",
+  "description": "analiticas de google",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-modules index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JordiDlc/"
+  },
+  "keywords": [
+    "analiticas",
+    "google analytics"
+  ],
+  "author": "JordiDlc",
+  "license": "MIT",
+  "dependencies": {
+    "@analytics/google-analytics": "^0.2.2",
+    "analytics": "^0.3.0"
+  }
+}
